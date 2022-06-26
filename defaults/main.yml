@@ -1,0 +1,11 @@
+CUSTOM_FIREWALL_RULES:
+  DNS:
+    port: 53
+    proto: udp
+    state: present
+  HTTP:
+    port: 80
+    proto: tcp
+    state: present
+
+SSH_PORT: 22
